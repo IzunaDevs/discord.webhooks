@@ -2,13 +2,16 @@ from setuptools import setup
 
 requirements = []
 
-version = '0.0.1'
+version = '0.0.2'
 
 if not version:
     raise RuntimeError('version is not set')
 
-with open('README.rst') as f:
-    readme = f.read()
+try:
+    with open('README.rst') as f:
+        readme = f.read()
+except FileNotFoundError:
+    readme = ""
 
 setup(name='discord.webhooks',
       author='Decorater',
