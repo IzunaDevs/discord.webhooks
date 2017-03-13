@@ -26,8 +26,8 @@ pip3 install --upgrade discord.webhooks
 - Python 3.4+
 
 ## Documentation
-- Documentation will be Soon™ or as soon as someone helps me make rst docs for this package for uploading into readthedocs.
-*(I am bad at rst and I am not sure how to rst for anything.)* But I can use md files instead.
+
+See [docs/index.md](docs/index.md) for documentation.
 
 ## Example
 
