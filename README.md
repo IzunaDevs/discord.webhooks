@@ -25,6 +25,10 @@ pip3 install --upgrade discord.webhooks
 - discord.py
 - Python 3.4+
 
+## Documentation
+- Documentation will be Soon™ or as soon as someone helps me make rst docs for this package for uploading into readthedocs.
+*(I am bad at rst and I am not sure how to rst for anything.)*
+
 ## Example
 
 example cog using the commands extension in discord.py that uses discord.webhooks:
