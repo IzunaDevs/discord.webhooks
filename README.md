@@ -1,3 +1,6 @@
+[![PyPI](https://img.shields.io/pypi/v/discord.webhooks.svg)](https://pypi.python.org/pypi/discord.webhooks/)
+[![PyPI](https://img.shields.io/pypi/pyversions/discord.webhooks.svg)](https://pypi.python.org/pypi/discord.webhooks/)
+
 ## discord.webhooks
 
 This is an extension to discord.py that allows you to use webhooks for discord bots.
