@@ -1,4 +1,7 @@
-|PyPI_0| |PyPI_1|
+.. image:: https://img.shields.io/pypi/v/discord.webhooks.svg
+   :target: https://pypi.python.org/pypi/discord.webhooks/
+.. image:: https://img.shields.io/pypi/pyversions/discord.webhooks.svg
+   :target: https://pypi.python.org/pypi/discord.webhooks/
 
 discord.webhooks
 ================
@@ -85,8 +88,3 @@ discord.webhooks:
         new_cog = WebHooks(bot)
         new_cog.botcommand()
         bot.add_cog(new_cog)
-
-.. |PyPI_0| image:: https://img.shields.io/pypi/v/discord.webhooks.svg
-   :target: https://pypi.python.org/pypi/discord.webhooks/
-.. |PyPI_1| image:: https://img.shields.io/pypi/pyversions/discord.webhooks.svg
-   :target: https://pypi.python.org/pypi/discord.webhooks/
