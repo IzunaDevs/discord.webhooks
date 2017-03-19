@@ -88,3 +88,8 @@ discord.webhooks:
         new_cog = WebHooks(bot)
         new_cog.botcommand()
         bot.add_cog(new_cog)
+
+
+.. image:: https://api.codacy.com/project/badge/Grade/b505a5b0cf5e4b57b4b4c56fefe833b0
+   :alt: Codacy Badge
+   :target: https://www.codacy.com/app/AraHaan/discord-webhooks?utm_source=github.com&utm_medium=referral&utm_content=AraHaan/discord.webhooks&utm_campaign=badger
