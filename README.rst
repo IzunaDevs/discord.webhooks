@@ -1,3 +1,6 @@
+discord.webhooks
+================
+
 .. image:: https://api.codacy.com/project/badge/Grade/b505a5b0cf5e4b57b4b4c56fefe833b0
    :alt: Codacy Badge
    :target: https://www.codacy.com/app/AraHaan/discord-webhooks?utm_source=github.com&utm_medium=referral&utm_content=AraHaan/discord.webhooks&utm_campaign=badger
@@ -5,9 +8,6 @@
    :target: https://pypi.python.org/pypi/discord.webhooks/
 .. image:: https://img.shields.io/pypi/pyversions/discord.webhooks.svg
    :target: https://pypi.python.org/pypi/discord.webhooks/
-
-discord.webhooks
-================
 
 This is an extension to discord.py that allows you to use webhooks for
 discord bots.
@@ -21,32 +21,32 @@ The reason why I do not do this is when someone needs to keep the voice
 support of discord.py installed.
 
 To install on Windows
-=====================
+---------------------
 
-.. code:: cmd
+.. code:: sh
 
     path\to\python.exe -m pip install --upgrade discord.webhooks
 
 To install on Linux
-===================
+-------------------
 
 .. code:: sh
 
     pip3 install --upgrade discord.webhooks
 
 Requirements
-============
+------------
 
 -  discord.py
 -  Python 3.4+
 
 Documentation
-=============
+-------------
 
 See `docs/index.md <docs/index.md>`__ for documentation.
 
 Example
-=======
+-------
 
 example cog using the commands extension in discord.py that uses
 discord.webhooks:
