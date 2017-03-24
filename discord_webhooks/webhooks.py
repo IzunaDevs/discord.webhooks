@@ -51,7 +51,8 @@ class Webhook:
 
     @asyncio.coroutine
     def request_webhook(self, partialurl, content=None, username=None,
-                 avatar_url=None, tts=False, file=None, embeds=None):
+                 avatar_url=None, tts=False, file=None, embeds=None,
+                 filename=None):
         """Requests an webhook with the data provided to this function."""
         if self.create_form_data:
             self.create_form_data = False
@@ -62,6 +63,8 @@ class Webhook:
         self.tts = tts
         self.file = file
         self.embeds = embeds
+        if filename is None:
+            filename = 'image.jpg'
         if self.partialurl is not None:
             if self.content is not None:
                 self.payload['content'] = self.content
@@ -78,7 +81,7 @@ class Webhook:
             if self.create_form_data:
                 self.form = aiohttp.FormData()
                 self.form.add_field('payload_json', discord.utils.to_json(self.payload))
-                self.form.add_field('file', self.file, filename='image.jpg', content_type='multipart/form-data')
+                self.form.add_field('file', self.file, filename=filename, content_type='multipart/form-data')
                 yield from self.http.request(
                         WebHookRoute(
                             'POST',

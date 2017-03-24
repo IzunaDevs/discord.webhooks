@@ -2,7 +2,7 @@ from setuptools import setup
 
 requirements = []
 
-version = '0.0.2'
+version = '0.0.3'
 
 if not version:
     raise RuntimeError('version is not set')

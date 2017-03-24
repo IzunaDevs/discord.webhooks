@@ -15,7 +15,7 @@ __title__ = 'discord.webhooks'
 __author__ = 'Decorater'
 __license__ = 'MIT'
 __copyright__ = 'Copyright 2017 Decorater'
-__version__ = '0.0.2'
-__build__ = 0x000002
+__version__ = '0.0.3'
+__build__ = 0x000003
 
 __all__ = webhooks.__all__
