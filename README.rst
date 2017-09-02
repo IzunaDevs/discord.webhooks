@@ -46,7 +46,7 @@ Requirements
 Documentation
 -------------
 
-See `docs/index.md <docs/index.md>`__ for documentation.
+See `docs/usage.rst <docs/usage.rst>`__ for documentation.
 
 Example
 -------
