@@ -9,8 +9,7 @@ Example
     class WebhookExample:
         """webhook example cog class that contains an webhook example command."""
         def __init__(self, bot):
-            self.bot = bot
-            self.webhook_class = Webhook(self.bot)
+            self.webhook_class = Webhook(bot)
             self.request_webhook = self.webhook_class.request_webhook  # to request an webhook.
 
         @commands.command(name='examplecommand', pass_context=True, no_pm=True)
