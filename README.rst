@@ -1,6 +1,9 @@
 discord.webhooks
 ================
 
+.. raw:: html
+    <!--- TODO: Change all of these badges later. --->
+
 .. image:: https://api.codacy.com/project/badge/Grade/b505a5b0cf5e4b57b4b4c56fefe833b0
    :alt: Codacy Badge
    :target: https://www.codacy.com/app/AraHaan/discord-webhooks?utm_source=github.com&utm_medium=referral&utm_content=AraHaan/discord.webhooks&utm_campaign=badger
@@ -59,21 +62,8 @@ discord.webhooks:
     class WebhookExample:
         """webhook example cog class that contains an webhook example command."""
         def __init__(self, bot):
-            self.bot = bot
-            self.webhook_class = Webhook(self.bot)
+            self.webhook_class = Webhook(bot)
             self.request_webhook = self.webhook_class.request_webhook  # to request an webhook.
-
-        def botcommand(self):
-            """Stores all command names in a dictionary."""
-            # I recommend for bots to have an retained list in case they want to make their own help command.
-            self.bot.commands_list.append('examplecommand')
-
-        def __unload(self):
-            """
-            Clears registered commands.
-            """
-            # and to remove each command from the list to update the help command when cogs are unloaded.
-            self.bot.commands_list.remove('examplecommand')
 
         @commands.command(name='examplecommand', pass_context=True, no_pm=True)
         async def examplecommand_command(self, ctx):
@@ -89,6 +79,5 @@ discord.webhooks:
         example webhook cog.
         """
         new_cog = WebHooks(bot)
-        new_cog.botcommand()
         bot.add_cog(new_cog)
 
