@@ -4,9 +4,6 @@ discord.webhooks
 .. raw:: html
     <!--- TODO: Change all of these badges later. --->
 
-.. image:: https://api.codacy.com/project/badge/Grade/b505a5b0cf5e4b57b4b4c56fefe833b0
-   :alt: Codacy Badge
-   :target: https://www.codacy.com/app/AraHaan/discord-webhooks?utm_source=github.com&utm_medium=referral&utm_content=AraHaan/discord.webhooks&utm_campaign=badger
 .. image:: https://img.shields.io/pypi/v/discord.webhooks.svg
    :target: https://pypi.python.org/pypi/discord.webhooks/
 .. image:: https://img.shields.io/pypi/pyversions/discord.webhooks.svg
